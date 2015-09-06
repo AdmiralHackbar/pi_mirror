@@ -1,0 +1,22 @@
+{
+  "name": "pi_mirror",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdmiralHackbar/pi_mirror.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdmiralHackbar/pi_mirror/issues"
+  },
+  "homepage": "https://github.com/AdmiralHackbar/pi_mirror#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
