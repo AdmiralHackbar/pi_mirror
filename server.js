@@ -4,10 +4,10 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('Hello World!');
+    res.sendFile(__dirname + "/build/public/index.html");
 });
 
-app.use(express.static('build/public'));
+app.use('/static/', express.static('build/public'));
 
 var server = app.listen(8080, function () {
     var host = server.address().address;
