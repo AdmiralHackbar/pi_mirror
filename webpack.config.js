@@ -5,5 +5,11 @@ module.exports = {
     output: {
         path: './build/public',
         filename: 'app.js'
+    },
+
+    module: {
+        loaders: [
+            { test: /\.styl$/, loader: 'style-loader!css-loader!stylus-loader' }
+        ]
     }
 };
